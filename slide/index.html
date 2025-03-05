@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+        <div class="slider fade">
+            <img class="images" src="img/pexels1.jpg" alt="">
+            <p class="text">1 / 4</p>
+        </div>
+        <div class="slider fade">
+            <img class="images" src="img/pexels2.jpg" alt="">
+            <p class="text">2 / 4</p>
+        </div>
+        <div class="slider fade">
+            <img class="images" src="img/pexels3.jpg" alt="">
+            <p class="text">3 / 4</p>
+        </div>
+        <div class="slider fade">
+            <img class="images" src="img/pexels4.jpg" alt="">
+            <p class="text">4 / 4</p>
+        </div>
+      
+
+        <div class="arrows">
+            <i class='bx bx-left-arrow-alt' onclick="plusSlides(-1)"></i>
+            <i onclick="plusSlides(1)" class='bx bx-right-arrow-alt'></i>
+            
+        </div>
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlides(0)" >.</span> 
+            <span class="dot" onclick="currentSlides(1)" >.</span>
+            <span class="dot" onclick="currentSlides(2)" >.</span>
+            <span class="dot" onclick="currentSlides(3)" >.</span> 
+
+        </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
